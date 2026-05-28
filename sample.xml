@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <product id="101">
+        <name>Wireless Mouse</name>
+        <price currency="USD">19.99</price>
+        <description>Ergonomic wireless mouse</description>
+        <in_stock>true</in_stock>
+    </product>
+
+    <product id="102">
+        <name>Keyboard</name>
+        <price currency="USD">29.99</price>
+        <description>Mechanical keyboard</description>
+        <in_stock>false</in_stock>
+    </product>
+</catalog>
