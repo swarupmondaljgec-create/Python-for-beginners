@@ -1,0 +1,13 @@
+sample_file=open("sample.txt", "w+")
+sample_file.write("This is a sample file.\n")
+sample_file.close()
+sample_file=open("sample.txt", "a+")
+sample_file.write("This is another line.\n")
+sample_file.close()
+sample_file=open("sample.txt", "r")
+content=sample_file.read()
+print(content)
+sample_file.close() 
+filelines=open("sample.txt", "r").readlines()
+for line in filelines:
+    print(line.strip())
